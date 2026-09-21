@@ -3,11 +3,11 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = TODO: pick a project name
+name = "example_ultralytics_vertex_training"
 version = "0.1.0"
-description = TODO: input a project description
+description = "train a simple ultralytics model"
 authors = [
-    { name = TODO: your name here },
+    { name = "CScott Brown" },
 ]
 dependencies = [
 ]

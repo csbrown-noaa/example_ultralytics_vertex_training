@@ -1,6 +1,6 @@
-# repo name
+# Example Ultralytics Vertex AI Training
 
-Describe your project here
+This is an example custom model training deployment to train a simple ultralytics detection model on the coco8 dataset.  Update the `load_data` method to train on your custom dataset.
 
 # Installation
 
