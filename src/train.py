@@ -4,8 +4,8 @@ import sys
 import urllib.request
 import zipfile
 from pathlib import Path
-from utils import resolve_fuse_path
-from data import load_data
+from .utils import resolve_fuse_path
+from .data import load_data
 
 from ultralytics import YOLO
 
