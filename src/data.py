@@ -19,7 +19,7 @@ def load_data():
     dataset_dir.mkdir(parents=True, exist_ok=True)
     
     # Download the example dataset
-    url = "https://ultralytics.com/assets/coco8.zip"
+    url = "https://github.com/ultralytics/assets/releases/download/v0.0.0/coco8.zip"
     urllib.request.urlretrieve(url, zip_path)
     
     # Extract it
@@ -29,4 +29,5 @@ def load_data():
         
     print(f"Dataset extracted to {dataset_dir / 'coco8'}")
 
+    # Return the expected path to the YAML config that Ultralytics will read
     return Path("./datasets/coco8.yaml")
