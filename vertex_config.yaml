@@ -1,0 +1,9 @@
+# vertex_config.yaml
+# This file is used by the gcloud CLI to configure job-level settings 
+# that don't have native command-line flags.
+
+# The baseOutputDirectory tells Vertex AI where to mount the Cloud Storage 
+# FUSE file system and sets the AIP_MODEL_DIR environment variable.
+# Update this path for different training runs (e.g., /1.0.1, /1.0.2).
+baseOutputDirectory:
+  outputUriPrefix: TODO
