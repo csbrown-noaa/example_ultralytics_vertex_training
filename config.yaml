@@ -1,0 +1,15 @@
+# A minimal Ultralytics YOLO configuration file
+
+# Any parameter not defined here will automatically use the YOLOv8 defaults.
+
+# Number of training epochs.
+# 3 is perfect for a quick "smoke test" to ensure your Vertex AI
+# container, GPU, and GCS bucket mounts are all working properly!
+epochs: 3
+
+# Image tensor size. 640 is standard for YOLOv8.
+imgsz: 640
+
+# Batch size. 16 is a very safe baseline for the NVIDIA T4 GPU
+# we hard-coded into the submit_job.sh script.
+batch: 16
