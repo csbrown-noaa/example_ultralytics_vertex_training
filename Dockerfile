@@ -21,7 +21,7 @@ COPY requirements.txt .
 
 # Install Python packages specified in requirements.txt.
 # Ultralytics will automatically pull down PyTorch as a dependency.
-RUN python3 -m pip install --break-system-packages --no-cache-dir -r requirements.txt
+RUN python3 -m pip install --no-cache-dir -r requirements.txt
 
 # Copy the entire src directory into the container
 COPY src /app/src
